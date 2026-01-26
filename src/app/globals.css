@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+
+  /* Happy Feet Colors */
+  --color-hercules-blue: #0ea5e9;       /* Ocean Blue */
+  --color-hercules-dark-blue: #0f172a;  /* Dark Slate (Background for white text) */
+  --color-hercules-red: #f97316;        /* Orange (Buttons) */
+  --color-hercules-light-blue: #f0f9ff; /* Light Cloud */
+  --color-hercules-gold: #eab308;       /* Yellow/Gold */
+}
+
+/* Force dark backgrounds to actually be dark */
+.bg-hercules-dark-blue {
+  background-color: #0f172a !important;
+}
+.bg-hercules-blue {
+  background-color: #0ea5e9 !important;
+}
