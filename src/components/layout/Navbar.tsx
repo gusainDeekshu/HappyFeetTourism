@@ -58,10 +58,14 @@ const navLinks = [
             </Link>
           ))}
           <Link href="/book-now">
-             <button className="bg-happy-yellow hover:bg-yellow-600 text-white px-6 py-2 rounded-full font-bold transition-all shadow-lg">
-                Book Now
-             </button>
-          </Link>
+  <button className={`px-6 py-2 rounded-full font-bold transition-all shadow-lg ${
+    isScrolled 
+      ? "bg-blue-600 text-white hover:bg-blue-700" 
+      : "bg-happy-yellow text-white  hover:bg-blue-700"
+  }`}>
+    Book Now
+  </button>
+</Link>
         </nav>
 
         {/* MOBILE TOGGLE */}
