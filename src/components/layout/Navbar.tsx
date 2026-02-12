@@ -18,7 +18,7 @@ export default function Navbar() {
 const navLinks = [
     { name: "Home", href: "/" },
     { name: "All Packages", href: "/destinations" }, // Directs to the list of packages
-    { name: "Group Tours", href: "/destinations/group-tours" }, // Optional specific link
+    // { name: "Group Tours", href: "/destinations/group-tours" }, // Optional specific link
     { name: "Travel Gallery", href: "/gallery" },
     { name: "Contact", href: "/contact" },
   ];
@@ -57,7 +57,7 @@ const navLinks = [
               {link.name}
             </Link>
           ))}
-          <Link href="/book-now">
+          <Link href="/contact#form-section">
   <button className={`px-6 py-2 rounded-full font-bold transition-all shadow-lg ${
     isScrolled 
       ? "bg-blue-600 text-white hover:bg-blue-700" 

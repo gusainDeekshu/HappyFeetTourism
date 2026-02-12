@@ -37,7 +37,7 @@ export default function ContactFormSection() {
   };
 
   return (
-    <section className="container mx-auto px-4 mb-24 -mt-20 relative z-20">
+    <section id='form-section' className="container mx-auto px-4 mb-24 -mt-20 relative z-20">
       <div className="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col lg:flex-row">
         
         {/* Left: Contact Info (Dark Blue) */}
